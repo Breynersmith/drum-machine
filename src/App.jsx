@@ -35,7 +35,7 @@ const App = () => {
       <div className="drum-pads">
         
         <div className={power ? 'active' : ''}>
-          <DrumPad id="Q" keyTrigger="Q" src="https://breynersmith.github.io/public/sounds/Heater-1.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="Q" keyTrigger="Q" src="https://breynersmith.github.io/drum-machine/public/sounds/Heater-1.mp3" onClick={playAudio} power={power} />
           <DrumPad id="W" keyTrigger="W" src="https://breynersmith.github.io/public/sounds/Heater-2.mp3" onClick={playAudio} power={power} />
           <DrumPad id="E" keyTrigger="E" src="https://breynersmith.github.io/public/sounds/Heater-3.mp3" onClick={playAudio} power={power} />
         </div>
