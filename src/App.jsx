@@ -35,19 +35,19 @@ const App = () => {
       <div className="drum-pads">
         
         <div className={power ? 'active' : ''}>
-          <DrumPad id="Q" keyTrigger="Q" src="https://breynersmith.github.io/drum-machine/public/sounds/Heater-1.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="W" keyTrigger="W" src="https://breynersmith.github.io/public/sounds/Heater-2.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="E" keyTrigger="E" src="https://breynersmith.github.io/public/sounds/Heater-3.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="Q" keyTrigger="Q" src="/sounds/Heater-1.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="W" keyTrigger="W" src="/sounds/Heater-2.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="E" keyTrigger="E" src="/sounds/Heater-3.mp3" onClick={playAudio} power={power} />
         </div>
         <div className={power ? 'active' : ''}>
-          <DrumPad id="A" keyTrigger="A" src="https://breynersmith.github.io/public/sounds/Heater-4_1.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="S" keyTrigger="S" src="https://breynersmith.github.io/public/sounds/Heater-6.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="D" keyTrigger="D" src="https://breynersmith.github.io/public/sounds/Dsc_Oh.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="A" keyTrigger="A" src="/sounds/Heater-4_1.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="S" keyTrigger="S" src="/sounds/Heater-6.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="D" keyTrigger="D" src="/sounds/Dsc_Oh.mp3" onClick={playAudio} power={power} />
         </div>
         <div className={power ? 'active' : ''}>
-          <DrumPad id="Z" keyTrigger="Z" src="https://breynersmith.github.io/public/sounds/Kick_n_Hat.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="X" keyTrigger="X" src="https://breynersmith.github.io/public/sounds/RP4_KICK_1.mp3" onClick={playAudio} power={power} />
-          <DrumPad id="C" keyTrigger="C" src="https://breynersmith.github.io/public/sounds/Cev_H2.mp3" onClick={playAudio}  power={power}/>
+          <DrumPad id="Z" keyTrigger="Z" src="/sounds/Kick_n_Hat.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="X" keyTrigger="X" src="/sounds/RP4_KICK_1.mp3" onClick={playAudio} power={power} />
+          <DrumPad id="C" keyTrigger="C" src="/sounds/Cev_H2.mp3" onClick={playAudio}  power={power}/>
         </div>
       </div>
       <p id="power-status">
